@@ -8,3 +8,8 @@ Rules:
 5. Globale Variablen sollen vermieden werden.
 6. Die Anzahl der Zeilen einer Methode darf nicht mehr als 30 betragen.
 7. Eine Klasse sollte maximal 20 Methoden haben.
+
+
+
+Spielregeln: 
+https://de.wikipedia.org/wiki/Schiffe_versenken
