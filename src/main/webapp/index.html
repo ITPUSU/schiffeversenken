@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Schiffe versenken</title>
+</head>
+<body>
+    <script>
+        const socket = new WebSocket('ws://localhost:8887');
+
+        socket.onopen = (event) => {
+            console.log('Connected to the server');
+        };
+
+        socket.onmessage = (event) => {
+            console.log('Message from server: ', event.data);
+            // Hier kannst du die Nachrichten verarbeiten und das Spiel-UI aktualisieren
+        };
+
+        socket.onclose = (event) => {
+            console.log('Disconnected from the server');
+        };
+
+        socket.onerror = (error) => {
+            console.log('WebSocket error: ', error);
+        };
+
+        // Beispiel-Nachricht an den Server senden
+        function sendMessage(message) {
+            socket.send(message);
+        }
+    </script>
+</body>
+</html>
