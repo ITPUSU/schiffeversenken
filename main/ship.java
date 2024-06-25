@@ -1,4 +1,4 @@
-cd .import java.util.ArrayList;
+import java.util.ArrayList;
 import java.util.List;
 
 // Abstrakte Klasse, die die Eigenschaften und das Verhalten eines Schiffs definiert
