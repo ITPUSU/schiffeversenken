@@ -1,4 +1,1 @@
-com\shipsinking\config\WebSocketConfig.class
-com\WebsocketDemoApplication.class
 com\shipsinking\controller\GameController.class
-com\shipsinking\controller\WebSocketController.class
